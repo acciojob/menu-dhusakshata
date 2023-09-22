@@ -150,4 +150,4 @@ let objArr =
     )
   }
   
-  export default App
+  export default App;
