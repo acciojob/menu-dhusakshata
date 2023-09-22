@@ -97,20 +97,20 @@ let objArr =
             >All</p>
 
             <p onClick={() => setCatagoryValue('breakfast')} 
-            id='filter-btn-1'
-            
+           // id='filter-btn-1'
+            id="filter-btn-1"
             data-test-id="menu-item-breakfast"
             >Breakfast</p>
 
             <p onClick={() => setCatagoryValue('lunch')} 
-            id='filter-btn-2'
-            
+           // id='filter-btn-2'
+            id="filter-btn-2"
             data-test-id="menu-item-lunch"
             >Lunch</p>
 
             <p onClick={() => setCatagoryValue('shakes')} 
-            id='filter-btn-3'
-          
+           // id='filter-btn-3'
+            id="filter-btn-3"
             data-test-id="menu-item-shakes"
             >Shakes</p>
 
