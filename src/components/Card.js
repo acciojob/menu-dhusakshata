@@ -1,22 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const Card = ({imgUrl, Title, price, description, index}) => {
-  return (
-    <div className="single-card" id={index}>
-          <div className="left">
-            <img src={imgUrl} alt="dish img" />
-          </div>
-          <div className="right">
-            <div className="top-row">
-              <div className="title">{Title}</div>
-              <div className="Price">${price}</div>
-            </div>
-            <div className="description">
-             {description}
-            </div>
-          </div>
-        </div>
-  )
-}
 
-export default Card
+const Card = ({ img , title,price,desc})=>(
+    <div className="Card">
+    <div className="image-section">
+        <img src={img}></img>
+    </div>
+    <div className="details-section">
+         <div className="item-title">
+            <b className="item-name">{title}</b>
+            <span className="item-price">$ {price}</span>
+         </div>
+         <div className="description">{desc}</div>
+    </div>
+</div>
+)
+
+export default Card;
