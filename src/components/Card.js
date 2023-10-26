@@ -1,6 +1,6 @@
 import React from "react";
 
-
+    
 const Card = ({ img , title,price,desc})=>(
     <div className="Card">
     <div className="image-section">
